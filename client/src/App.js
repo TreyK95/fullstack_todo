@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 import { Container } from "semantic-ui-react";
-import { render } from "react-dom";
+//import { render } from "react-dom";
 
 class App extends Component {
   state = { todos: [] };
